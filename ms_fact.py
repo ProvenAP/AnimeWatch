@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask
 import random
 
 app = Flask(__name__)
@@ -11,9 +11,9 @@ facts = [
     "The first anime ever made was in 1917."
 ]
 
-@app.route("/fact", methods=["GET"])
+@app.route("/fact")
 def fact():
-    return jsonify({"fact": random.choice(facts)})
+    return random.choice(facts)
 
 if __name__ == "__main__":
-    app.run(port=5003)
+    app.run(port=5002)

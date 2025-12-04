@@ -1,19 +1,17 @@
-from flask import Flask, jsonify
+from flask import Flask
 import random
 
 app = Flask(__name__)
 
-quotes = [
-    "Keep going — you’re closer than you think.",
-    "Progress is progress, even if it's slow.",
-    "Small steps still move you forward.",
-    "Consistency beats motivation every time.",
-    "You only fail if you stop trying."
+lines = [
+    "keep going, you're doing great!",
+    "small steps still move forward.",
+    "you got this—don’t give up now!"
 ]
 
-@app.route("/motivate", methods=["GET"])
+@app.route("/motivate")
 def motivate():
-    return jsonify({"quote": random.choice(quotes)})
+    return random.choice(lines)
 
 if __name__ == "__main__":
-    app.run(port=5004)
+    app.run(port=5003)
