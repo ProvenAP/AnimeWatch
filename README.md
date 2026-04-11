@@ -56,5 +56,5 @@ The app also reflects the following **quality attributes**:
 
 ## 🧾 Author
 **Anthony Pham (ProvenAP)**  
-CS361 – Software Engineering I  
+CS361 - Software Engineering I  
 Oregon State University
