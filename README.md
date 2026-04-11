@@ -1,6 +1,6 @@
-# AnimeWatch — CS361 Milestone #1
+# AnimeWatch - CS361 Milestone #1
 
-## Version 1.0.0 — Main Program Implementation
+## Version 1.0.0 - Main Program Implementation
 
 **AnimeWatch** is a simple desktop program built with **Tkinter** that helps users manage the anime they watch.  
 It allows adding, removing, and tracking episodes (as of right now) for different shows while maintaining a clean and accessible layout.
@@ -18,14 +18,14 @@ It allows adding, removing, and tracking episodes (as of right now) for differen
 
 ## Inclusivity Heuristics Reflected
 AnimeWatch was designed following **all 8 Inclusivity Heuristics**:
-1. **Explain Benefits** — The home screen explains what AnimeWatch does and why it’s helpful.  
-2. **Explain Costs** — Actions are simple, quick, and clearly labeled to reduce cognitive load.  
-3. **Let Users Control Info** — Details can be expanded or hidden as needed.  
-4. **Keep Familiar Features** — Standard buttons and list layouts make it easy to use.  
-5. **Provide Undo** — Users can re-add deleted shows if removed by accident.  
-6. **Explicit Steps** — Labels and button text clearly show what to do next.  
-7. **Multiple Ways** — Users can search or browse manually to find anime.  
-8. **Encourage Carefulness** — A confirmation prompt appears before deletion.
+1. **Explain Benefits** - The home screen explains what AnimeWatch does and why it’s helpful.  
+2. **Explain Costs** - Actions are simple, quick, and clearly labeled to reduce cognitive load.  
+3. **Let Users Control Info** - Details can be expanded or hidden as needed.  
+4. **Keep Familiar Features** - Standard buttons and list layouts make it easy to use.  
+5. **Provide Undo** - Users can re-add deleted shows if removed by accident.  
+6. **Explicit Steps** - Labels and button text clearly show what to do next.  
+7. **Multiple Ways** - Users can search or browse manually to find anime.  
+8. **Encourage Carefulness** - A confirmation prompt appears before deletion.
 
 ---
 
